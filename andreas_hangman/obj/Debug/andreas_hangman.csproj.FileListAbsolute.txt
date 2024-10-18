@@ -1,0 +1,7 @@
+C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_hangman\bin\Debug\andreas_hangman.exe.config
+C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_hangman\bin\Debug\andreas_hangman.exe
+C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_hangman\bin\Debug\andreas_hangman.pdb
+C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_hangman\obj\Debug\andreas_hangman.csproj.AssemblyReference.cache
+C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_hangman\obj\Debug\andreas_hangman.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_hangman\obj\Debug\andreas_hangman.exe
+C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_hangman\obj\Debug\andreas_hangman.pdb
