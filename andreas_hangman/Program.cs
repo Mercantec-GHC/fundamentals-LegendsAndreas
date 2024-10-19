@@ -8,14 +8,19 @@ namespace andreas_hangman
 {
     internal class Program
     {
+        /// <summary>
+        /// Hangman game class containing all the game logic.
+        /// </summary>
         public class Hangman
         {
-            string word = null;
-            StringBuilder hiddenWord = new StringBuilder();
-            //List<char> letterBank = new List<char>() {'a','b','c','e','f','g','h','i','j','k','l','m','n','o','p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'æ', 'ø', 'å' };
-            List<char> usedLettersBank = new List<char>() { };
-            int allowedFailiures = 6;
+            string? word = null; // The word that the player will try to guess.
+            private readonly StringBuilder hiddenWord = new(); // An abstraction of "word" so that it is hidden from the player.
+            private readonly List<char> usedLettersBank = []; // Keeps track of already entered letters.
+            int allowedFailiures = 6; // The amount of failed guesses allowed.
 
+            /// <summary>
+            /// Starts the Hangman game.
+            /// </summary>
             public void BeginHangman()
             {
                 if (word == null)
@@ -34,75 +39,144 @@ namespace andreas_hangman
                 {
                     PrintHangman();
                     PrintHiddenWord();
+
                     enteredLetter = GetEnteredLetter();
                     if (LetterIsUsed(enteredLetter))
                     {
                         Console.WriteLine("Big yikes, u already used dat letter Xir!");
                         continue;
                     }
-                    AddToLetterBank(enteredLetter);
-                    CheckLetter(enteredLetter);
-                    // IsLetterValid
-                }
-            }
 
-            public void CheckLetter(char letter)
-            {
-                List<int> indexes = new List<int>();
-                for (int i = 0; i < word.Length; i++)
-                {
-                    if (word[i] == letter)
+                    AddToLetterBank(enteredLetter);
+                    if (!CheckLetter(enteredLetter))
                     {
+                        Console.WriteLine("You lost a point!");
+                        allowedFailiures--;
+                    }
+
+                    if (Defeat())
+                    {
+                        Console.WriteLine("You lost!");
+                        Console.WriteLine("The word was " + word);
+                        break;
+                    }
+
+                    if (Victory())
+                    {
+                        PrintHiddenWord();
+                        Console.WriteLine("Congratiolations, you saved him!");
+                        break;
                     }
                 }
             }
 
+            /// <summary>
+            /// Checks if the player has been defeated.
+            /// </summary>
+            /// <returns>True if defeats, otherwise false.</returns>
+            private bool Defeat()
+            {
+                if (allowedFailiures < 1)
+                    return true;
+                else
+                    return false;
+            }
+
+            /// <summary>
+            /// Checks if the player has won.
+            /// </summary>
+            /// <returns>True if victory, otherwise false.</returns>
+            private bool Victory()
+            {
+                string hiddenWordString = hiddenWord.ToString();
+                if (hiddenWordString == word)
+                    return true;
+                else
+                    return false;
+            }
+
+            /// <summary>
+            /// Checks if the entered letter is in the word.
+            /// </summary>
+            /// <param name="letter">The entered letter.</param>
+            /// <returns>True if the letter is in the word, otherwise false.</returns>
+            private bool CheckLetter(char letter)
+            {
+                bool checker = false;
+                for (int i = 0; i < word.Length; i++)
+                {
+                    if (word[i] == letter)
+                    {
+                        checker = true;
+                        hiddenWord[i] = letter;
+                    }
+                }
+
+                return checker;
+            }
+
+            /// <summary>
+            /// Checks if the letter has already been used.
+            /// </summary>
+            /// <param name="letter">The entered letter.</param>
+            /// <returns>True if the letter is used, otherwise false.</returns>
             private bool LetterIsUsed(char letter)
             {
                 if (usedLettersBank.Contains(letter))
-                {
                     return true;
-                }
                 else
-                {
                     return false;
-                }
             }
 
-            private void AddToLetterBank(char letter)
-            {
-                usedLettersBank.Add(letter);
-            }
+            /// <summary>
+            /// Adds a letter to the list of used letters.
+            /// </summary>
+            /// <param name="letter">The entered letter.</param>
+            private void AddToLetterBank(char letter) { usedLettersBank.Add(letter); }
 
-            public void PrintWord()
-            {
-                Console.WriteLine(word);
-            }
+            /// <summary>
+            /// Prints the word to console.
+            /// </summary>
+            public void PrintWord() { Console.WriteLine(word); }
 
+            /// <summary>
+            /// Sets the word to guess.
+            /// </summary>
+            /// <param name="passedWord">The word to be set.</param>
             public void SetWord(string passedWord)
             {
                 passedWord = passedWord.ToLower();
                 word = passedWord;
             }
 
+            /// <summary>
+            /// Prints the current state of the hidden word to console.
+            /// </summary>
             private void PrintHiddenWord()
             {
                 Console.WriteLine(hiddenWord);
             }
 
+            /// <summary>
+            /// Initializes the hidden word with underscores for each letter in the word, or when it finds a space, it appends a space to the hidden word.
+            /// </summary>
             private void SetHiddenWord()
             {
                 int wordLength = word.Length;
-                string underScores = "";
+                hiddenWord.Clear();
                 for (int i = 0; i < wordLength; i++)
                 {
-                    underScores += "_";
+                    if (word[i] == ' ')
+                        hiddenWord.Append(' ');
+                    else
+                        hiddenWord.Append('_');
                 }
-
-                hiddenWord.Clear();
-                hiddenWord.Append(underScores);
             }
 
+            /// <summary>
+            /// Gets the entered letter from console.
+            /// </summary>
+            /// <returns>The entered letter.</returns>
             private char GetEnteredLetter()
             {
                 Console.Write("Guess letter> ");
@@ -114,18 +188,15 @@ namespace andreas_hangman
                 return input;
             }
 
-
-
-            public void PrintHangman()
-            {
-                Console.WriteLine(allowedFailiures);
-            }
+            /// <summary>
+            /// Prints the current number of allowed failures to console.
+            /// </summary>
+            private void PrintHangman() { Console.WriteLine(allowedFailiures); }
         }
 
         static void Main(string[] args)
         {
             Hangman hangman = new Hangman();
-            hangman.SetWord("Apple");
             hangman.BeginHangman();
         }
     }
