@@ -197,6 +197,7 @@ namespace andreas_hangman
         static void Main(string[] args)
         {
             Hangman hangman = new Hangman();
+            hangman.SetWord("I am Ironman");
             hangman.BeginHangman();
         }
     }

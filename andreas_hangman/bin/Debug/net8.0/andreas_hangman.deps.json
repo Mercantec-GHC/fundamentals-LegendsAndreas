@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "andreas_hangman/1.0.0": {
+        "runtime": {
+          "andreas_hangman.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "andreas_hangman/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

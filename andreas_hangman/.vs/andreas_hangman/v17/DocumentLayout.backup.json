@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\A\\Desktop\\Coding\\Github\\fundamentals-LegendsAndreas\\andreas_hangman\\",
+  "WorkspaceRootPath": "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\fundamentals-LegendsAndreas\\andreas_hangman\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\A\\Desktop\\Coding\\Github\\fundamentals-LegendsAndreas\\andreas_hangman\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17A45ED4-61EC-41E7-9826-C0222F75AFD5}|andreas_hangman.csproj|c:\\users\\andre\\desktop\\pog grammering\\github\\faelles_github\\fundamentals-legendsandreas\\andreas_hangman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17A45ED4-61EC-41E7-9826-C0222F75AFD5}|andreas_hangman.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\A\\Desktop\\Coding\\Github\\fundamentals-LegendsAndreas\\andreas_hangman\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\fundamentals-LegendsAndreas\\andreas_hangman\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\A\\Desktop\\Coding\\Github\\fundamentals-LegendsAndreas\\andreas_hangman\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADIAAAATAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\fundamentals-LegendsAndreas\\andreas_hangman\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwEAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T06:51:35.001Z",
+              "WhenOpened": "2024-10-21T06:42:17.47Z",
               "EditorCaption": ""
             }
           ]
