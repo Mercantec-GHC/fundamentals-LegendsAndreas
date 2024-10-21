@@ -20,3 +20,10 @@ C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-Legends
 C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_banko\Banko\obj\Debug\net8.0\Banko.dll
 C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_banko\Banko\obj\Debug\net8.0\refint\Banko.dll
 C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_banko\Banko\obj\Debug\net8.0\Banko.pdb
+C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_banko\Banko\bin\Debug\net8.0\Banko.exe
+C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_banko\Banko\bin\Debug\net8.0\Banko.deps.json
+C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_banko\Banko\bin\Debug\net8.0\Banko.runtimeconfig.json
+C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_banko\Banko\bin\Debug\net8.0\Banko.dll
+C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_banko\Banko\bin\Debug\net8.0\Banko.pdb
+C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_banko\Banko\obj\Debug\net8.0\Banko.genruntimeconfig.cache
+C:\Users\andre\Desktop\Pog grammering\github\faelles_github\fundamentals-LegendsAndreas\andreas_banko\Banko\obj\Debug\net8.0\ref\Banko.dll

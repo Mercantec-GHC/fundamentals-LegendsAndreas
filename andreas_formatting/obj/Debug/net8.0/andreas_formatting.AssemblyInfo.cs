@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("andreas_formatting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b61092f7f8fb822af6c98f9dcf2080663daa3cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3620c843b5c8edfbe56c7b4c57578a26cefc66e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("andreas_formatting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("andreas_formatting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

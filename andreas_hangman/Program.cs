@@ -26,7 +26,7 @@ namespace andreas_hangman
                 if (word == null)
                 {
                     Console.Write("Please insert a word to guess> ");
-                    SetWord(Console.ReadLine());
+                    SetWord(passedWord: Console.ReadLine());
                 }
 
                 // Pre-game setup.
@@ -196,8 +196,7 @@ namespace andreas_hangman
 
         static void Main(string[] args)
         {
-            Hangman hangman = new Hangman();
-            hangman.SetWord("I am Ironman");
+            Hangman hangman = new();
             hangman.BeginHangman();
         }
     }

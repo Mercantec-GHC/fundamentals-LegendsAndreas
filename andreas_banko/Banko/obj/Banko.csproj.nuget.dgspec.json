@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\andreas_banko\\Banko\\Banko\\Banko.csproj": {}
+    "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\fundamentals-LegendsAndreas\\andreas_banko\\Banko\\Banko.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\andreas_banko\\Banko\\Banko\\Banko.csproj": {
+    "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\fundamentals-LegendsAndreas\\andreas_banko\\Banko\\Banko.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\andreas_banko\\Banko\\Banko\\Banko.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\fundamentals-LegendsAndreas\\andreas_banko\\Banko\\Banko.csproj",
         "projectName": "Banko",
-        "projectPath": "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\andreas_banko\\Banko\\Banko\\Banko.csproj",
+        "projectPath": "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\fundamentals-LegendsAndreas\\andreas_banko\\Banko\\Banko.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\andreas_banko\\Banko\\Banko\\obj\\",
+        "outputPath": "C:\\Users\\andre\\Desktop\\Pog grammering\\github\\faelles_github\\fundamentals-LegendsAndreas\\andreas_banko\\Banko\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
